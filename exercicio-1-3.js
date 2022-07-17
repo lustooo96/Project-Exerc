@@ -1,7 +1,7 @@
 
-console.log(teste('999'));
+console.log(convertStringInNumber('999'));
 
-function teste(number){
+function convertStringInNumber(number){
   if(!number) return 'Passe uma string para validar'
   if(validString(number)){
      //retira todos os espaços da string que vai se transformar em numero
