@@ -22,7 +22,7 @@ function validString(number){
   
   for(let i=0 ; i < number.length ; i++){
     //Validando se não tem mais de um sinal de + ou de -
-    if(i > 1 && (number[i] === '+' || number[i] === '-')) return false
+    if(i > 0 && (number[i] === '+' || number[i] === '-')) return false
 
   }
   return true;
